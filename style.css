@@ -1,0 +1,697 @@
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}  
+.first-header{
+    width: 100%;
+    height: 600px; 
+    background-color: rgb(0, 0, 0);
+} 
+.middle{
+    width: 90%; 
+    display: flex;
+    align-items: center;
+    height: inherit;
+    margin: auto;  
+}
+.arr-one{
+    width:20px; 
+    height: inherit;
+    display: flex;
+    padding: 10px;  
+    align-items: center; 
+}
+.arr{   
+    color: #ff6600;
+    cursor: pointer;   
+    font-size: 40px;
+}
+.arr:hover{
+    transition: 1s;
+    background-color: rgba(255, 255, 255, 0.247);
+}
+.first-nav{
+    background-blend-mode: multiply; 
+    width: 100%;  
+    background-color: rgba(0, 0, 0, 0.863);
+    padding: 10px;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-image: url("./assets/image/adoo.jpeg"); 
+    color: #ffffff;     
+}
+.nav-one{
+    width: 100%; 
+    display: flex;   
+    justify-content: space-between;
+}
+.log{
+    border-bottom: rgb(255, 255, 255) solid 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btns{
+    background-color: inherit;
+    border: none;
+    height: 35px;
+    cursor: pointer;
+    width: 25%;
+    background-color:#ff6600 ;
+    border-radius: 10px;
+    color: white; 
+}
+.btns:hover{
+    background-color: white; 
+    color: #ff6600;
+}
+.btnser{
+     border-radius: 10px;
+     cursor: pointer;
+    padding: 10px;
+    background-color:#ff6600 ;
+    color: #ffffff;
+    border: none;
+    width: 40%;
+}
+.btnso{
+     border-radius: 10px;
+     cursor: pointer;
+    padding: 10px;
+    background-color:#ffffff ;
+    color: #000000;
+    border: none;
+    width: 40%;
+}
+.right-nav{
+    padding: 10px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: inherit; 
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.mosrt{
+    width: 100%;  
+    height: 115px;  
+        animation-name: slideone;
+        animation-duration: 3s;
+    color: white;
+}
+@keyframes slideone{
+    10%{
+        margin-left:70px;
+    }
+}
+.mart{
+    font-size: 10px;
+    margin-top: 1px;
+    color: rgb(238, 238, 238);
+    margin: 0px; 
+}  
+.doiwnselect{
+    width: 20%;
+    height: 80px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lay{ 
+    color: rgb(169, 255, 71);
+    font-size: 13px;
+}
+.lays{
+    color: rgb(255, 0, 0);
+    font-size: 13px;
+}
+.crypto-lay{
+    width: 100%; 
+    height: 25px;
+    display: flex;
+    align-items: center;
+    z-index: 200;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+}
+.going{
+    display: flex;
+}
+.notle{
+    width: 24%;
+    height: 2px;
+}
+.doge{
+    color: rgb(182, 255, 98); 
+}
+.layer{
+    color: rgb(255, 0, 0);
+    font-size: 13px;
+}
+.head-one{
+    width: 100%;
+    height:  inherit;
+    background-size: 100% 100%;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.658);
+    background-repeat: no-repeat;
+    background-image: url("./assets/image/adoo.jpeg"); 
+}
+.head-ones{
+    width: 100%;
+    height:  inherit;
+    display: none;
+    background-size: 100% 100%;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.658);
+    background-repeat: no-repeat;
+    background-image: url("./assets/image/pexels-karolina-grabowska-5980573.jpg"); 
+}
+.head-two{
+    width: 100%;
+    height:  inherit;
+    background-size: 100% 100%;
+    background-blend-mode: multiply;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.671);
+    background-repeat: no-repeat;
+    background-image: url("./assets/image/tima.jpg"); 
+}
+.insidehead-one{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  height: inherit; 
+}
+
+.tem-one{
+    width: fit-content;
+    height: inherit; 
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    font-size:40px;
+    color: #ff6600;
+    align-items: center;
+}
+.tem-two{
+    width: 99%;
+    display: flex;
+    align-items: center;
+    height: inherit; 
+}
+.tem-three{
+    width: fit-content;
+    height: inherit; 
+    cursor: pointer;
+    padding: 10px;
+    font-size:40px;
+    color: #ff6600;
+    display: flex;
+    align-items: center;
+}
+.carry-item{
+    width: 100%;  
+    animation-name: sliceone;
+    animation-duration:3s;
+    padding: 30px;  
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+} 
+@keyframes sliceone{
+    10%{
+        color: red;
+        margin-left: 102px;
+    }
+}
+.most{
+    color: white; 
+    font-size: 25px;
+} 
+.loremwrite{
+    color: white;
+    font-size: 10px;
+}
+.downbtnsdiv{
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.live-vid{
+    width: 35%;
+    border-radius: 10px; 
+    height: 200px; 
+}
+.iframevid{
+    width: 100%;
+    height: inherit;
+}
+.live{ 
+    cursor: pointer;
+    text-align: right;
+    color: red; 
+}
+.about-div{
+    display: flex;
+    width: 100%; 
+}
+.imgs{
+    width: 30%;
+    height: 300px;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.719);
+    display: flex;
+    align-items: center;
+    background-blend-mode: multiply;
+    background-image: url("./assets/image/pexel.jpg");
+}
+.aba{
+    color: white;
+    width: 100%;
+    padding: none;
+    text-align: center;
+}
+.prove{
+    width: 100%;
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px; 
+    font-size: 15px;
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+    height: inherit; 
+}
+.down{
+    width: 100%;  
+}
+.our{
+    color: #ff6600;
+    border-bottom:#ff6600 solid 2px ;
+}
+.ipsm{
+    padding: none;
+    color: #797878;
+    text-align: center;
+}
+.ipsum{
+    padding: none;
+    color: #797878;
+    display: none;
+    text-align: center;
+}
+.elits{
+    display: none;
+    text-align: center;
+    color: #797878;
+}
+.mine{  
+    text-align: center;
+display: none;
+    color: #797878;
+}
+.side-div{
+    width: 20%;
+    margin: auto;
+    display: flex;
+    align-items: center;  
+    border-radius: 10px;
+    padding: 1px;
+    justify-content: space-around;
+    height: 50px;  
+}
+.plan-one{
+    cursor: pointer;
+    color: white;
+    height: inherit;
+    width: 45%;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff6600;
+   font-size: 15px;
+}
+.plan-two{ 
+    cursor: pointer;
+    color: white;
+    height: inherit;
+    border-radius: 8px;
+    width: 45%;
+    border: none;
+    background-color: #000000;
+   font-size: 15px;
+}
+.plan-container{
+    width: 100%;  
+}
+.one-plan{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 400px; 
+    padding: 10px;
+    background-image: url("./assets/image/now.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.829);
+}
+.one-plans{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 400px; 
+    padding: 10px;
+    background-image: url("./assets/image/pas.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.651);
+}
+.select-one{
+    border:#ff6600 solid 3px ;
+    width: 20%;  
+    padding: 10px;
+}
+.dollar{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.invest{
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    font-size: 15px; 
+    border: none;
+    background-color:#ff6600 ;
+    height: 40px;
+}
+.second-slider{
+     display:none;
+}
+.expert{
+    text-align: center;
+    color: #ff6600;
+}
+.expert-part{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 400px; 
+}
+.expert-one{
+    width: 20%;
+    height: inherit;    
+}
+.expert-text{
+    width: 100%;
+    text-align: center;
+    color: white;
+    height: 100px;
+    font-size: 13px;
+    background-color: black;
+}
+.pic-div{
+    width: 100%;
+    height: 290px; 
+}
+.girls{
+    width: 100%; 
+    height: inherit;
+} 
+.uk{
+    margin-top: -20px;
+    padding: none;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(139, 139, 139);
+}
+.livetrade-div{
+    margin: auto;
+    width: 50%;
+    height: 300px;
+    background-color: black;
+}
+.trading{
+    text-align: center;
+    color: red;
+}
+   
+.coin-prize-div{
+    width: 100%; 
+    justify-content: space-around;
+    display: flex; 
+}
+.footer-one{
+   width:100%;
+   background-image: url("/assets/image/chart.jpeg");
+   height: 300px;
+   display: flex;
+   justify-content: space-between;
+background-size: 100% 100%; 
+background-blend-mode: multiply;
+   background-color: rgba(0, 0, 0, 0.733);
+}
+.some{
+    width: 19%; 
+    height: inherit; 
+}
+.uper{ 
+    color: rgb(255, 255, 255);
+}
+h5{
+    cursor: pointer;
+}
+h5:hover{
+    border-bottom: white solid 3px;
+    transition: 0s;
+}
+.side{
+width: 100%;
+display: flex; 
+padding: 5px;
+justify-content: space-around;
+align-items: center;
+height: 70px; 
+}
+.bitco{
+    font-size: 40px;
+color: rgb(255, 255, 255);
+}
+.comapny{
+margin: none;
+font-size: 11px;
+color: #ff6600;
+    padding: none;
+    width: 90%;
+    text-align: right;
+    margin-top: -20px; 
+}
+.totam{
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    color: white; 
+}
+.quick-div{
+    width: 19%; 
+    height: inherit; 
+} 
+.q-div{
+    width: 100%;
+    height: 90px;
+    color: white;
+    display: flex;
+    align-items: center; 
+}
+.link{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.links{ 
+    font-size: 20px;
+    border-bottom:  #ff6600 solid 5px;
+    cursor: pointer;
+}
+.us{
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}  
+.us:hover{
+    color: #ff6600 ;
+}
+.quick-divs{
+    display: flex;
+    align-items: center;
+    width:20%;  
+    height: inherit; 
+}
+.inpute-div{
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    height: 80px; 
+    display: flex;
+    align-items: center; 
+}
+.mail{
+    width: 70%;
+    outline: none;
+    padding: 4px; 
+    height: 30px;
+}
+.btnsub{
+    width: 30%; 
+}
+.sub-divd{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: black;
+}
+.subn{
+    height: inherit;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+}
+.footer-two{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+}
+.copy{ 
+    padding: 12px;
+    font-size: 12px;
+    color: rgb(129, 129, 129);
+}
+.market-line{
+    width: 45%;
+    height: inherit; 
+}
+.coin-one-prize{
+    width: 100%;
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    background-color: rgb(223, 223, 223);
+    justify-content: space-around;
+}
+.betco{
+    color: rgb(255, 72, 0);
+    cursor: pointer; 
+    font-size: 30px;
+}
+.bet{
+    color: green;
+    font-size: 20px;
+    cursor: pointer;
+}
+.per{
+    cursor: pointer;
+    font-size: 12px;
+    color: green;
+}
+.prize{
+    text-align: center;
+    padding: 20px;
+    color: #ff6600;
+}
+.get-div{
+    width: 12%;
+    height: 50px;
+    margin-top: -50px;
+    margin: auto; 
+}
+.strat{
+    width: 100%;
+    height: inherit;
+    border: none;
+    color: white;
+    cursor: pointer; 
+    background-color:#ff6600 ;
+}
+.daily-div{
+    width: 4%;
+    height: 160px;
+    position: fixed;
+    margin-top: 402px;
+    background-color: rgb(0, 0, 0);
+}
+.ly{
+    color: white;
+    transform: rotate(42220deg);
+}
+
+.loadingdivs{
+    width: 100%;
+    height: 900px;
+    z-index: 222;
+    animation-name: load; 
+    position: fixed;
+    animation-duration: 3s;
+    display: flex;
+    align-content: center;
+    visibility: hidden;
+    background-color: rgb(255, 255, 255);
+}
+@keyframes load{
+    10%{ 
+       visibility: visible;
+    }
+}
+.brand{
+    width: 100%;  
+  align-self: center;
+}
+.loadbtc{
+    text-align: center;
+    color:#ff6600 ;
+    font-size: 40px;
+    animation-name: btc;
+    animation-duration: 12s;
+    width: 100%;
+}
+@keyframes btc{
+    10%{
+        transform: rotate(5000deg);
+    }
+}
+.dings{ 
+    text-align: center;
+    width: 100%;
+    color:#7a7a7a ;
+}
+.ethe{ 
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    cursor: pointer;
+}
+.bot{
+    color: red;
+    font-size: 20px;
+}
+.pers{
+    cursor: pointer;
+    font-size: 12px;
+    color: rgb(255, 0, 0);
+}
