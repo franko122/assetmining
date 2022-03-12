@@ -3,8 +3,77 @@ body{
     padding: 0%;
     margin: 0%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }  
+.pendopo{
+    width: 20%;
+    text-align: center; 
+    height: inherit;  
+}
+.ball-range{
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 50px;   
+}
+.clock{
+    color: rgb(124, 124, 124);
+    width: 100%; 
+    text-align: center;
+}
+.base-timer {
+    position: relative;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .base-timer__svg {
+    transform: scaleX(-1);
+  }
+  
+  .base-timer__circle {
+    fill: none;
+    stroke: none;
+  }
+  
+  .base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+  }
+  
+  .base-timer__path-remaining {
+    stroke-width: 7px;
+    stroke-linecap: round;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1s linear all;
+    fill-rule: nonzero;
+    stroke: currentColor;
+  }
+  
+  .base-timer__path-remaining.green {
+    color: rgb(65, 184, 131);
+  }
+  
+  .base-timer__path-remaining.orange {
+    color: orange;
+  }
+  
+  .base-timer__path-remaining.red {
+    color: red;
+  }
+  
+  .base-timer__label {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+  }
 .first-header{
     width: 100%;
     height: 600px; 
@@ -351,7 +420,7 @@ display: none;
     background-color: #000000;
    font-size: 15px;
 }
-.plan-container{
+.plan-container{ 
     width: 100%;  
 }
 .one-plan{
@@ -688,6 +757,7 @@ color: #ff6600;
 }
 .bot{
     color: red;
+    cursor: pointer;
     font-size: 20px;
 }
 .pers{
@@ -705,7 +775,7 @@ color: #ff6600;
 } 
  .form-container{
      width:30%;
-     height: 450px;
+     height: 525px;
      background-color: #ffffff;
  }
  .logs{
@@ -737,3 +807,337 @@ color: #ff6600;
      transition: 1s;
     border:2px solid #ff6600 ;
  }
+ .btnsi-div{
+     width: 30%;
+     height: 40px;
+     float:right; 
+     color: white;
+ }
+ .siup{
+     width: 100%;
+     cursor: pointer;
+     background-color:#ff6600 ;
+     border: none;
+     color:  #ffffff;
+     height: inherit;
+ }
+ .container{
+     width: 35%; 
+     margin: auto;
+     height: 940px; 
+     background-color: white;
+ }
+ .user-div{
+     width: 100%;
+     margin-top: 24px; 
+     display: inline-table; 
+     align-items: center;
+     height: 50px;  
+    }
+.board{
+    align-items: center; 
+    text-align: center; 
+   color: #ff6600;
+}
+.name-div{
+    width: 97%;
+    display: flex; 
+    height: 55px;
+    align-items: center;  
+    padding: 5px; 
+}
+.circ{
+    border-radius: 100px;
+    width: 12%;
+    height: inherit;  
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-image: url(./assets/image/adope.jpeg)
+}
+.him{
+    margin-left: 20px; 
+     color: rgb(145, 145, 145);
+}
+.money-div{ 
+    background-color: rgb(255, 255, 255);
+    width: 99%;
+    height: 100px; 
+}
+.main-dolar{ 
+    border-radius: 20px;
+    width: 80%; 
+    background-color: rgb(240, 240, 240); 
+    margin: auto;
+    height: 130px; 
+}
+.laysss{ 
+    background-color: rgb(240, 240, 240); 
+}
+.dol{
+    width: 30%;
+    padding: 10px;  
+    font-size: 20px;
+    color: rgb(145, 145, 145); 
+    text-align: center;
+}
+.down-all{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px; 
+}
+.btnwith{ 
+    height: 35px;
+    outline: none;
+    border:  #ff6600 solid 2px ; 
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #ff6600;
+    border-radius:10px;
+    width: 90%;
+}
+.down-options{
+    width: 100%;
+    height: 400px; 
+}
+.upnav{
+    background-color: #f0f0f0;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;  
+}
+.nav-circ{
+  width: 5%;   
+  padding: 5px;
+  cursor: pointer; 
+}
+.nav-circle{
+    border-radius: 100px; 
+  width: 35%;
+  height: 8px;
+  background-color: rgb(170, 170, 170);
+}
+.nav-circles{
+    border-radius: 100px;
+  width: 35%;
+  height: 8px;
+  margin-top: 2px;
+  background-color: rgb(170, 170, 170);
+}
+.coname{
+    width: 90%;
+    display: flex;
+    text-align: center                                                              ;
+    align-items: center;
+    height:40px; 
+}
+.seru{  
+    color:#ff6600 ;
+    width: 100%;
+    text-align: center;
+}
+.list-one{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px; 
+}
+.depo{ 
+    background-color:#ff6600  ;
+    width: 30%; 
+    color: white;
+    border-radius:10px;
+    cursor: pointer;
+    border: none;
+    height: inherit;
+}
+.coin-one-prizes{
+    width: 230%;
+    height: 50px; 
+    display: flex;
+    align-items: center;
+    background-color: rgb(223, 223, 223);
+    justify-content: space-around;
+}
+.set-div{
+    width: 100%;
+    display: none;
+    background-color:#ff6600  ;
+    height: 900px; 
+    position: fixed;
+}
+.xcan{
+    padding: 30px;
+    color: white;
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+} 
+.mayer{
+    width: 100%;
+    height: 900px;
+    display: none;
+    background-color: red;
+    position: fixed;
+}
+.home-direct{
+    width: 30%;
+    border-radius: 10px; 
+    margin: auto;
+    margin-top: 600px;
+    height: 40px; 
+}
+.home{
+    width: 100%;
+    color: white;
+    height: inherit;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    background-color:#ff6600 ;
+}
+.sining{ 
+    font-size: 10px;
+    color:#ff6600 ;
+    cursor: pointer;
+} 
+.depo-contrainer{
+    cursor: pointer;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    height: 1000px;  
+    margin: auto; 
+} 
+.ounts{
+    font-size: 10px;
+    color: rgb(177, 177, 177);
+}
+.wallet{
+    width: 40%;
+    height: 150px;
+    margin: auto; 
+}
+.no{
+    width: 100%;
+    height: inherit;
+}
+.content{
+    width: fit-content;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto; 
+    position: relative;
+}
+.content h2{
+     cursor: pointer;
+     font-size: 15px; 
+     font-weight: 700;
+}
+.popup{
+    position: absolute; 
+    top: -100px;
+    left: 50%; 
+    color:#ff6600 ;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    transform:  translate(-50% ,-20px);
+    opacity: 0;
+    pointer-events: none;
+}
+.popup.active{
+   animation: popup 1s ease-in-out forwards;
+}
+@keyframes popup{
+    0%{
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -20px);
+    }
+    40%{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, 0px);
+    }
+    80%{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, 0px);
+    }
+    100%{
+        opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -20px);
+    }
+}
+.fonsi{
+    border-radius: 10px;
+    background-color: rgb(236, 235, 235);
+    padding: 10px;
+   font-size: 11px;
+}
+.note{
+    text-align: center;
+     color: red; 
+    font-size: 10px;
+}
+.list-div{
+    width: 70%; 
+    margin: auto; 
+    color: rgb(97, 97, 97);
+    text-align: center;
+}
+.details{
+    text-align: center;
+    color:#ff6600 ;
+   font-size: 11px;
+}
+.homediv{
+    width: 30%;
+    height: 50px;
+    margin: auto; 
+}
+.ome{
+    background-color:#ff6600 ;
+    width: 100%;
+    height: inherit;
+    color: white;
+    border: none;
+    border-radius:5px;
+}
+.another-draw{
+    width: 100%;
+    height: 200px;
+    overflow: scroll;
+    display: none;
+    padding: 8px;
+    background-color: rgb(223, 223, 223);
+}
+.another-draw::-webkit-scrollbar{
+    display: none;
+}
+.coiner{
+    cursor: pointer;
+    font-size: 11px;
+    padding: 10px;
+    text-align: center;
+} 
+ 
+.one-co{
+    width: 100%;
+    height: 40px;
+    font-size: 11px;
+    color: rgb(156, 156, 156);
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+}
+.betcos{  
+    cursor: pointer; 
+    font-size: 30px;
+}

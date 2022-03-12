@@ -1,5 +1,4 @@
-
-    // alert("Hello welcome to assetmining company all transactions on this company are secured with blockchain");
+// alert("Hello welcome to assetmining company all transactions on this company are secured with blockchain");
 const closeone=document.getElementById('closeone');
 const firstclick=document.getElementById('firstclick');
 const secondslide=document.getElementById('secondslide');
@@ -25,8 +24,12 @@ const liveline=document.getElementById('liveline');
 const lives=document.getElementById('lives');
 const conp=document.getElementById('conp');
 const yes=document.getElementById('yes');
-const outus=document.getElementById('outus');
-const abot=document.getElementById('abot');
+const outus=document.getElementById('outus'); 
+firstclick.addEventListener('click',()=>{
+    closeone.style.display="none";
+    secondslide.style.display="block";  
+});  
+
 outus.addEventListener('click',()=>{
     abot.scrollIntoView({
         behavior:"smooth"
@@ -129,8 +132,4 @@ secback.addEventListener('click',()=>{
     secondslide.style.display="none"; 
     closeone.style.display="block";
 });
-
-firstclick.addEventListener('click',()=>{
-    closeone.style.display="none";
-    secondslide.style.display="block";  
-});
+ 
