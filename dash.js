@@ -5,7 +5,7 @@ const may=document.getElementById('may');
 const abot=document.getElementById('abot');
 const circleshow=document.getElementById('circleshow');
 const showing=document.getElementById('showing');
-const cans=document.getElementById('cans'); 
+const cans=document.getElementById('cans');   
 cans.addEventListener('click',()=>{
     showing.style.display="none";
 });
